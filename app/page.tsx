@@ -7,6 +7,7 @@ import { RadiusSelector } from '../components/RadiusSelector';
 import { JourneyCard } from '../components/JourneyCard';
 import { PermissionGuide } from '../components/PermissionGuide';
 import { AlarmTestButton } from '../components/AlarmTestButton';
+import { AudioSelector } from '../components/AudioSelector';
 import { DevTestPanel } from '../components/DevTestPanel';
 import { TriggeredAlarmModal } from '../components/TriggeredAlarmModal';
 
@@ -215,8 +216,8 @@ export default function HomePage() {
               </div>
             )}
 
-            {/* Quick Alarm Check Card */}
-            <AlarmTestButton />
+            {/* Alarm Sound & Custom Mobile Audio Selector Card */}
+            <AudioSelector />
           </div>
         )}
 
