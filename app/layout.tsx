@@ -18,9 +18,9 @@ export const metadata: Metadata = {
   title: "GeoAlarm | GPS Location & Destination Alarm",
   description: "Mobile-first location-based wake-up application for buses, trains, car commutes, and travel.",
   icons: {
-    icon: "/icon.png",
+    icon: "/favicon.ico",
     shortcut: "/favicon.ico",
-    apple: "/icon.png",
+    apple: "/favicon.ico",
   },
 };
 
